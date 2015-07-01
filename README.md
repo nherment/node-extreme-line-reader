@@ -6,8 +6,8 @@ purpose of such a module...
 
 > There is no support for parallel processing yet.
 
-``
-    var Reader = require('extreme-line-reader')
+```
+    var StreamLineReader = require('extreme-line-reader')
 
     var lineReader = new StreamLineReader({stream: stream})
 
@@ -20,4 +20,4 @@ purpose of such a module...
       assert.equal(fileData.length, 0, JSON.stringify(fileData))
       done()
     })
-``
+```
